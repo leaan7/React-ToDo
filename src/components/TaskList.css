@@ -1,0 +1,46 @@
+.taskList-Container {
+    width: 100%;
+}
+
+.task {
+    list-style: none;
+    padding: 7px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    font-weight: 500;
+    transition: .3s;
+    font-size: 20px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    line-height: 40px;
+
+}
+
+span {
+    line-height: 40px;
+}
+
+.task:hover, .task:hover .btn-remove, .task:hover .btn-check{
+    background-color: #999999;
+}
+
+.task button:hover  {
+    cursor: pointer;
+}
+
+
+.btn-remove,.btn-check {
+    padding-top: 6px;
+    border: none;
+    margin: 5px;
+    background-color: white;
+    transition: .3s;
+}
+
+
+.donned {
+    text-decoration:line-through
+}
+
